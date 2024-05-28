@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Áramkörök</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 96 960 960"
+              width="26"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              /></svg
+          ></a>
+        </li>
+        <li><a href="../html/index.html">Főoldal</a></li>
+        <li><a href="../html/tipus.html">Termékek</a></li>
+        <li><a href="../html/blog.html">Blog</a></li>
+      </ul>
+      <ul>
+        <li><a href="../html/index.html">Áramkör Bolt</a></li>
+        <li class="hideOnMobile"><a href="../html/index.html">Főoldal</a></li>
+        <li class="hideOnMobile"><a href="../html/tipus.html">Termékek</a></li>
+        <li class="hideOnMobile"><a href="../html/blog.html">Blog</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 96 960 960"
+              width="26"
+            >
+              <path
+                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="parent">
+        <div class="div1">
+          <img src="../img/kapcsolodas.png" alt="Vezeték" title="Vezeték" />
+          <h2>Vezeték</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+            facilis autem repellendus magni quam voluptates, nesciunt
+            exercitationem vero corporis expedita obcaecati magnam sunt nulla
+            omnis officia ad vitae est perspiciatis?
+          </p>
+        </div>
+        <div class="div2">
+          <img src="../img/vezeték.png" alt="Kapcsolodas" title="Kapcsolodas" />
+          <h2>Kapcsolodas</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laborum nulla delectus voluptates architecto incidunt id beatae, in
+            aliquam iusto accusantium quaerat modi nostrum, voluptatem rem
+            harum, tempora ad quae.
+          </p>
+        </div>
+        <div class="div3">
+          <img src="../img/elem.png" alt="Elem" title="Elem" />
+          <h2>Elem</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laborum nulla delectus voluptates architecto incidunt id beatae, in
+            aliquam iusto accusantium quaerat modi nostrum, voluptatem rem
+            harum, tempora ad quae.
+          </p>
+        </div>
+        <div class="div4">
+          <img src="../img/izzolampa.png" alt="Izzolampa" title="Izzolampa" />
+          <h2>Izzólámpa</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laborum nulla delectus voluptates architecto incidunt id beatae, in
+            aliquam iusto accusantium quaerat modi nostrum, voluptatem rem
+            harum, tempora ad quae.
+          </p>
+        </div>
+        <div class="div5">
+          <img src="../img/kapcsolo.png" alt="kapcsolo" title="kapcsolo" />
+          <h2>Nyitott kapcsolo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laborum nulla delectus voluptates architecto incidunt id beatae, in
+            aliquam iusto accusantium quaerat modi nostrum, voluptatem rem
+            harum, tempora ad quae.
+          </p>
+        </div>
+        <div class="div6">
+          <img
+            src="../img/zártkapcsolo.png"
+            alt="zártkapcsolo"
+            title="zártkapcsolo"
+          />
+          <h2>Zárt kapcsoló</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laborum nulla delectus voluptates architecto incidunt id beatae, in
+            aliquam iusto accusantium quaerat modi nostrum, voluptatem rem
+            harum, tempora ad quae.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "flex";
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "none";
+    }
+  </script>
+</html>

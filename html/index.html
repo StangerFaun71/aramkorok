@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Áramkörök</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 96 960 960"
+              width="26"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              /></svg
+          ></a>
+        </li>
+        <li><a href="../html/index.html">Főoldal</a></li>
+        <li><a href="../html/tipus.html">Termékek</a></li>
+        <li><a href="../html/blog.html">Blog</a></li>
+      </ul>
+      <ul>
+        <li id="asd"><a href="../html/index.html">Áramkör Bolt</a></li>
+        <li class="hideOnMobile"><a href="../html/index.html">Főoldal</a></li>
+        <li class="hideOnMobile"><a href="../html/tipus.html">Termékek</a></li>
+        <li class="hideOnMobile"><a href="../html/blog.html">Blog</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 96 960 960"
+              width="26"
+            >
+              <path
+                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="hero">
+        <div id="welcome">
+          <h1>Áramkör Bolt</h1>
+          <p>Minden ami áramkör</p>
+        </div>
+      </section>
+      <!--pc-->
+      <div class="pc">
+        <div class="pc1">
+          <h1>Digitális Áramkörök Rejtelmei</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+            autem rem laudantium aliquam sequi eveniet assumenda vero at minima
+            tempora fugit odio quod reprehenderit quos velit nam suscipit quidem
+            necessitatibus. Repellendus, qui. Voluptatum dolore sed expedita
+            mollitia distinctio ipsam ea. Quod, hic veritatis. At deleniti hic
+            nulla quis veniam. Adipisci sequi at rem vel nihil quasi accusantium
+            veniam illo assumenda?
+          </p>
+          <a class="link" href="../html/blog.html">Elolvasom tovább</a>
+        </div>
+        <div class="pc2">
+          <h1>Innovatív Áramköri Tervezés</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            quas quam veritatis sapiente, porro qui asperiores et esse officiis
+            possimus est voluptas voluptate! Illo sunt officiis consectetur
+            veritatis. Nam, sapiente! Earum molestiae ducimus soluta? Deserunt
+            doloremque corporis ab ullam amet odit repellat aliquid deleniti
+            voluptatibus temporibus officiis debitis sit quam animi porro autem,
+            culpa in quisquam dignissimos quo ratione placeat.
+          </p>
+          <a class="link" href="../html/blog.html">Elolvasom tovább</a>
+        </div>
+        <br />
+        <div class="pc3">
+          <h1>Az Áramkörök Alapjai</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero culpa ut qui beatae distinctio libero nemo assumenda a, aperiam
+            consequatur illum odio. Modi vel mollitia possimus, quidem quos cum.
+            In magni eaque repellendus molestiae, alias deserunt. Beatae,
+            consectetur eveniet maiores, non molestias perspiciatis optio hic
+            cumque adipisci eum quibusdam porro nisi doloremque veniam
+            reiciendis error voluptatem magni, dignissimos laboriosam!
+          </p>
+          <a class="link" href="../html/blog.html">Elolvasom tovább</a>
+        </div>
+      </div>
+      <!--mobil-->
+      <div class="mobil">
+        <div class="mobil1">
+          <h1>Digitális Áramkörök Rejtelmei</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+            reprehenderit molestias excepturi aliquid ipsa ipsam quia itaque,
+            sint culpa cupiditate, natus atque dolor, numquam enim consequuntur
+            omnis. Vero, ipsa ut?
+          </p>
+          <a class="link" href="../html/blog.html#mobil1">Elolvasom tovább</a>
+
+          <br />
+          <br />
+        </div>
+        <div class="mobil2">
+          <h1>Innovatív Áramköri Tervezés</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+            reprehenderit molestias excepturi aliquid ipsa ipsam quia itaque,
+            sint culpa cupiditate, natus atque dolor, numquam enim consequuntur
+            omnis. Vero, ipsa ut?
+          </p>
+          <a class="link" href="../html/blog.html#mobil2">Elolvasom tovább</a>
+          <br />
+          <br />
+        </div>
+        <div class="mobil3">
+          <h1>Az Áramkörök Alapjai</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+            reprehenderit molestias excepturi aliquid ipsa ipsam quia itaque,
+            sint culpa cupiditate, natus atque dolor, numquam enim consequuntur
+            omnis. Vero, ipsa ut?
+          </p>
+          <a class="link" href="../html/blog.html#mobil3">Elolvasom tovább</a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "flex";
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "none";
+    }
+  </script>
+</html>
